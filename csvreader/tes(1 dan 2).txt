@@ -1,0 +1,32 @@
+1. Jelaskan apa itu SQL?
+jawab =  SQL adalah sebuah bahasa yang digunakan untuk mengakses data dalam basis data relasional. 
+         Bahasa ini secara de facto merupakan bahasa standar yang digunakan dalam manajemen basis data relasional. 
+         Saat ini hampir semua server basis data yang ada mendukung bahasa ini untuk melakukan manajemen datanya
+
+
+2.Sebutkan apa itu DDL,DML dan DCL dalam SQL beserta perbedaan nya?
+jawab = PENGERIAN:
+        a.DDL= Command DDL (Data Definition Language) merupakan command yang berisi perintah-perintah untuk mendefinisikan skema di database, seperti untuk membuat, memodifikasi, serta menghapus struktur database
+        Beberapa perintah yang termasuk ke dalam DDL adalah:
+        CREATE: Digunakan untuk membuat database atau objeknya (seperti tabel, indeks, function, views, store procedure, dan trigger).
+        DROP: Dapat digunakan untuk menghapus objek dari database.
+        ALTER: Perintah ini digunakan untuk mengubah struktur database.
+        TRUNCATE: Ini digunakan untuk menghapus semua record dari tabel, termasuk semua space yang dialokasikan untuk semua record yang dihapus.
+        COMMENT: Perintah ini digunakan untuk menambahkan komentar ke kamus data.
+        RENAME: Perintah ini digunakan untuk mengganti nama objek yang ada di database.
+
+        b.DML= DML (Data Manipulation Language) merupakan command yang berhubungan dengan proses manipulasi data yang ada di database, yang umumnya mencakup hampir sebagian besar statement SQL.
+        Beberapa perintah yang termasuk ke dalam kategori DML adalah:
+        INSERT : Perintah ini dapat digunakan untuk memasukkan data ke dalam tabel.
+        UPDATE: Digunakan untuk memperbarui data yang ada dalam tabel.
+        DELETE : Ini bermanfaat untuk menghapus record dari tabel database.
+        LOCK: Tabel kontrol konkurensi.
+        CALL: Untuk memanggil subprogram PL/SQL atau JAVA.
+        EXPLAIN PLAN: Perintah ini digunakan untuk menjelaskan jalur akses ke data.
+
+        C.DCL= DCL yang merupakan singkatan dari Data Control Language. Pada dasarnya, pernyataan DCL dikelompokkan dengan pernyataan DML. Sehingga perintah yang ada di command ini berguna untuk mengontrol hak akses database (privilege) dan memanipulasi user database.
+        erintah yang termasuk ke dalam kelompok DCL adalah GANT dan REVOKE.
+
+        
+        PERBEDAAN:
+        DDL digunakan untuk mengelola metadata yang menggambarkan struktur dan skema database. DML: Fokus utama DML adalah pada manipulasi data dalam tabel. Pernyataan DML digunakan untuk menyisipkan, memperbarui, menghapus, dan mengambil data dari tabel dalam database.
